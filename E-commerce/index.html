@@ -2,12 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <title>E-Commerce</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div
+        class="pop-up flex h-10 flex-row items-center justify-around bg-gray-700 text-white"
+      >
+        <p>Free shipping, 30-day return or refund guarantee.</p>
+        <div class="btn flex w-48 flex-row justify-evenly">
+          <button class="border border-white rounded-md">SIGN IN</button>
+          <button class="border border-white rounded-md">SIGN UP</button>
+        </div>
+      </div>
+      <div
+        class="nav-bar flex flex-row items-center justify-around border-4 border-gray-200"
+      >
+        <div>
+          <h1 class="mr-2 border-4">E-Store</h1>
+        </div>
+        <div class="flex items-center">
+          <ul class="w-96 flex flex-row items-center justify-evenly">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>PRODUCTS</li>
+            <li>CONTACT</li>
+          </ul>
+          <button>Cart</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div></div>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
