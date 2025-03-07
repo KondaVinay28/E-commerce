@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topNav {
+  /* border: 1px solid black; */
+  background-color: rgb(44, 43, 43);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.S-buttons {
+  width: 150px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: lightslategray;
+}
+.logo {
+  /* border: 1px solid green; */
+}
+.list {
+  /* border: 1px solid black; */
+  width: 30%;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-evenly; */
+}
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-items li {
+  list-style-type: none;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart button {
+  height: 30px;
+  width: 45px;
+  border: none;
+  background: lightslategray;
+  cursor: pointer;
+}
+.button i {
+  height: 100%;
+  width: 100%;
+}
