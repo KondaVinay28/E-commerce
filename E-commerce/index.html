@@ -99,7 +99,7 @@
         <div class="product-card">
           <div class="card">
             <div class="category">
-              <button>Computers</button>
+              <button id="item-name">Computers</button>
             </div>
 
             <div class="card-image">
@@ -127,17 +127,19 @@
 
               <div class="card-stock spans">
                 <span>Quantity(Pieces)</span>
-                <button>+</button>
-                <span>0</span>
-                <button>-</button>
+                <button class="incButton">+</button>
+                <span id="countZero">0</span>
+                <button class="decButton">-</button>
               </div>
-
-              <button class="spans">Add to Cart</button>
+              <button class="AddToCart spans">Add to Cart</button>
             </div>
           </div>
         </div>
       </template>
     </div>
+
+    <script type="module" src="src/cartQuantity.js"></script>
+    <script type="module" src="api/products.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

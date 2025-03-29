@@ -223,9 +223,6 @@ p,
   flex-direction: column;
 }
 
-.category {
-}
-
 .card-image {
   height: 200px;
   width: 200px;
@@ -241,7 +238,7 @@ p,
 
 .card-specifications h2,
 span {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .strike {
@@ -253,4 +250,28 @@ span {
 }
 .card-quantity {
   display: flex;
+}
+button {
+  background-color: black !important;
+  color: white;
+  border: none;
+}
+
+.AddToCart {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#item-name {
+  margin-left: 2px;
+  margin-top: 2px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
