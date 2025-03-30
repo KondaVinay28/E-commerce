@@ -275,3 +275,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.incButton,
+.decButton {
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+}

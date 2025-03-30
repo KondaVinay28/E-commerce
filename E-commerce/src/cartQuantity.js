@@ -1,5 +1,7 @@
-// let incButton = document.querySelector(".incButton");
-// let decButton = document.querySelector(".decButton");
-// incButton.addEventListener("click", function random(event) {
-//   console.log(event);
-// });
+//make addtocart button functional
+//make increment and decrement btns functional
+//display the cart items in cart
+const incrementButton = document.querySelector(".incButton");
+incrementButton.addEventListener("click", (event) => {
+  console.log(event);
+});
