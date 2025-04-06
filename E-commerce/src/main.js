@@ -1,4 +1,5 @@
 import products from "../api/products.js";
+import { cartQuantity } from "./cartQuantity.js";
 document.addEventListener("DOMContentLoaded", () => {
   let productsContainer = document.querySelector(".products_container");
   // let innerHTML = "";
@@ -34,9 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
           <div class="card-stock spans">
             <span>Quantity(Pieces)</span>
-            <button  class="incButton">+</button>
-            <span id="countZero">0</span>
-            <button class="decButton">-</button>
+            <div class="cartToggle"> 
+              <button  class="incButton">+</button>
+              <span id="countToggle">0</span>
+              <button class="decButton">-</button>
+            </div>
           </div>
 
           <button  class="spans AddToCart">Add to Cart</button>
@@ -46,4 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .join("");
   productsContainer.innerHTML = displayData;
+  let cartToggle = document.querySelectorAll(".cartToggle");
+  cartToggle.forEach((element) => {
+    element.addEventListener("click", cartQuantity);
+  });
 });
