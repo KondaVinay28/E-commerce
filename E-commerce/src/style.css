@@ -178,8 +178,8 @@ p,
 }
 
 .description {
-  font-size: 1.65rem;
-  font-weight: bold;
+  font-size: 1rem;
+  /* font-weight: bold; */
 }
 
 .underline {
@@ -205,7 +205,7 @@ p,
 
 .template-container {
   width: 80%;
-  height: 1000px;
+  /* height: 1000px; */
   display: flex;
   justify-content: space-evenly;
 }
