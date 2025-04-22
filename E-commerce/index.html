@@ -47,7 +47,7 @@
           <p>
             Welcome to eComStore, your ultimate destination for cutting-edge
             gadgets! Explore the latest in tech innovation and style with us.
-            Shop now and discover a world of possibilites!
+            Shop now and discover a world of possibilities!
           </p>
           <button class="explore" id="E-button">Explore Our Products</button>
         </div>
@@ -97,7 +97,7 @@
     <div class="products_container">
       <template class="template-container">
         <div class="product-card">
-          <div class="card">
+          <div class="card" id="cardNumber">
             <div class="category">
               <button id="item-name">Computers</button>
             </div>
@@ -117,7 +117,7 @@
                 Powerful laptop with a quad-code i5 processor, 8GB Ram, 256gb
                 SSD, and a 14-inch FHD display
               </p>
-              <span class="spans">$999</span>
+              <span class="spans price">$999</span>
               <span class="strike spans">$1999</span>
 
               <div class="card-quantity">
@@ -128,9 +128,11 @@
               <div class="card-stock spans">
                 <div class="cartToggle">
                   <span>Quantity(Pieces)</span>
-                  <button class="incButton">+</button>
-                  <span id="countZero">0</span>
-                  <button class="decButton">-</button>
+                  <div class="toggleButtons">
+                    <button class="incButton">+</button>
+                    <span id="countZero">0</span>
+                    <button class="decButton">-</button>
+                  </div>
                 </div>
               </div>
               <button class="AddToCart spans">Add to Cart</button>
@@ -140,8 +142,6 @@
       </template>
     </div>
 
-    <script type="module" src="src/cartQuantity.js"></script>
-    <script type="module" src="api/products.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

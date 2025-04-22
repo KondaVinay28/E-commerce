@@ -282,3 +282,10 @@ button {
   padding: 3px;
   cursor: pointer;
 }
+
+.cartToggle {
+  display: flex;
+}
+.toggleButtons {
+  margin: auto;
+}
